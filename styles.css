@@ -21,10 +21,6 @@ body {
 	border-bottom: 1px solid seashell;
 }
 
-.banner {
-	
-}
-
 .logo {
 	float: left;
 	height: 10px 10px;
@@ -64,6 +60,7 @@ body {
 }
 
 .p {
+	display: block;
 	margin-left: 20px;
 	text-align: left;
 	font-weight: 100;
@@ -79,7 +76,6 @@ body {
 .pStyle {
 	padding: 5px 70px;
 	font-weight: 100;
-	
 }
 
 #about img {
@@ -91,28 +87,33 @@ body {
 
 }
 
-.aboutMe {
-	width: 50%;
+.aboutMeMedia {
+	width: 43%;
+	float: right;
+	
+}
+
+.aboutMePar {
+	text-align: left;
+	
 }
 
 .missionStyle {
 
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: 100;
-	padding: 10px 70px;
-}
-
-.h1MissionStyle {
-	font-size: 2em;
 	padding: 10px 70px;
 }
 
 #imgDescription {
   
-  padding: 10px;
-  font-size: 0.5em;
+  padding: 5px 80px;
+  font-size: 0.7em;
   font-weight: 100;
   text-align: center;
+  float: right;
+  width: 300px;
+  
 }
 
 .featured-container {
