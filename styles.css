@@ -178,7 +178,9 @@ body {
 
 .caption {
 	text-align: center;
-	color: grey;
+	color: #41698A;
+	margin-top: 5px;
+	margin-bottom: 50px;
 }
 
 .foot {
