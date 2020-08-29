@@ -151,6 +151,13 @@ body {
 	padding-right: 70px;
 }
 
+.moneyServices {
+	height: 75px;
+	width: auto;
+	align-items: center;
+	
+}
+
 .featured-container {
 	display: inline-flex;
 	max-width: 1440;
