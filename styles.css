@@ -18,7 +18,7 @@ body {
 	background-color: black;
 	position: fixed;
 	top: 0px;
-	border-bottom: 1px solid seashell;
+	border-bottom: 1px solid;
 	opacity: 0.85;
 }
 
