@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	margin: 0;
 	font-weight: 100;
-	font-family: 'Sorts Mill Goudy', serif; 
+	font-family: 'Sorts Mill Goudy', serif;
 }
 
 .header {
@@ -54,7 +54,6 @@ body {
 
 .splashImg {
 	width: 100%;
-
 }
 
 .p {
@@ -63,15 +62,12 @@ body {
 	text-align: left;
 	font-weight: 100;
 	padding: 40px;
-	
 }
 
 .h1Style {
 	font-size: 36px;
 	padding: 10px 70px;
-	
 }
-
 
 .pStyle {
 	padding: 5px 70px;
@@ -88,53 +84,47 @@ body {
 	float: right;
 	margin: 20px;
 	padding: 10px 70px;
-
 }
 
 .aboutMeMedia {
 	width: 43%;
 	float: right;
-	
 }
 
 .aboutMePar {
 	text-align: left;
-	
 }
 
 .missionStyle {
-
 	font-size: 1em;
 	font-weight: 100;
 	padding: 10px 70px;
 }
 
 #imgDescription {
-  
-  padding: 5px 80px;
-  font-size: 0.7em;
-  font-weight: 100;
-  text-align: center;
-  float: right;
-  width: 300px;
-  
+	padding: 5px 80px;
+	font-size: 0.7em;
+	font-weight: 100;
+	text-align: center;
+	float: right;
+	width: 300px;
 }
 
 .reviews {
-	color: #41698A;
+	color: #41698a;
 	font-size: 36px;
 }
 .column {
 	float: left;
 	width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
 	content: "";
-	display: table;
+	display: flex;
 	clear: both;
-  }
+}
 
 .quotesLeft {
 	padding-left: 70px;
@@ -153,7 +143,6 @@ body {
 	height: 75px;
 	width: auto;
 	align-items: center;
-	
 }
 
 .cashApp {
@@ -174,7 +163,7 @@ body {
 	padding: 70px;
 }
 
-.featured img{
+.featured img {
 	height: 175px;
 	width: auto;
 	align-content: center;
@@ -184,23 +173,48 @@ body {
 
 .caption {
 	text-align: center;
-	color: #41698A;
+	color: #41698a;
 	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
+.bookServiceText {
+	margin: 0px;
+	text-align: left;
+	padding-left: 25px;
+	text-align: center;
+}
+
+.box {
+	background-color: #41698a;
+	color: white;
+	padding: 50px;
+	margin: 30px;
+	width: 40%;
+}
+
+/* Clear floats after the columns */
+.box-container:after {
+	content: "";
+	clear: both;
+	
+	
+}
+
+.box-container {
+	display: flex;
+}
 
 .foot {
 	background-color: black;
 	color: seashell;
 	text-align: left;
 	display: block;
-    flex: left;
+	flex: left;
 	padding: 40px;
 	font-size: 0.83em;
 	opacity: 0.9;
 }
-
 
 .centered {
 	font-size: 3em;
