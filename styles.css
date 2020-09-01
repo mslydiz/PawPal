@@ -1,7 +1,7 @@
 body {
 	font-size: 22px;
 	color: black;
-	background-color: white;
+	background-color: seashell;
 	text-align: center;
 	margin: 0;
 	font-weight: 100;
@@ -195,7 +195,7 @@ body {
 
 .box {
 	background-color: #41698a;
-	color: white;
+	color: seashell;
 	padding: 50px;
 	margin: 30px;
 	width: 40%;
@@ -215,7 +215,7 @@ body {
 
 .contactDiv {
 	background-color: #41698a;
-	color: white;
+	color: seashell;
 	padding: 20px;
 }
 
