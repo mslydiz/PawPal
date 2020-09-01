@@ -185,6 +185,14 @@ body {
 	text-align: center;
 }
 
+#newClientMargin {
+	margin-bottom: 0px;
+}
+
+#requirementsMargin {
+	margin-top: 0px;
+}
+
 .box {
 	background-color: #41698a;
 	color: white;
