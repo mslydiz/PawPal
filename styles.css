@@ -213,6 +213,12 @@ body {
 	display: flex;
 }
 
+.contactDiv {
+	background-color: #41698a;
+	color: white;
+	padding: 20px;
+}
+
 .foot {
 	background-color: black;
 	color: seashell;
